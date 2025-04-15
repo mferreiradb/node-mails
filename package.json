@@ -1,0 +1,18 @@
+{
+  "name": "node-mails",
+  "version": "1.0.0",
+  "description": "A project to send styled emails using Node.js and Nodemailer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mferreiradb/node-mails.git"
+  },
+  "author": "Mauricio",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.10.1"
+  }
+}
